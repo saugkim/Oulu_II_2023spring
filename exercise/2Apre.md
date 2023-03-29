@@ -133,7 +133,7 @@ Valitse yksi:
 a. R lukee ARP-taulukosta osoitteen 222.222.222.220 MAC-osoitteen (1A-23-F9-CD-06-9B), rakentaa Ethernet-kehyksen sillä vastaanottajaosoitteella ja lähettäjäosoitteella 49-BD-D2-C7-56-2A 
 - R does ARP lookup for 222.222.222.222, finds out that the MAC address is 1A-23-F9-CD-06-9B, constructs Ethernet frame, and uses that as the destination address and 49-BD-D2-C7-56-2A as the source address
 
-b. R lukee ARP-taulukosta osoitteen 222.222.222.220 MAC-osoitteen (1A-23-F9-CD-06-9B), rakentaa Ethernet-kehyksen sillä vastaanottajaosoitteella ja lähettäjäosoitteella E6-E9-00-17-BB-4B 
+* b. R lukee ARP-taulukosta osoitteen 222.222.222.220 MAC-osoitteen (1A-23-F9-CD-06-9B), rakentaa Ethernet-kehyksen sillä vastaanottajaosoitteella ja lähettäjäosoitteella E6-E9-00-17-BB-4B 
 - R does ARP lookup for 222.222.222.222, finds out that the MAC address is 1A-23-F9-CD-06-9B, constructs Ethernet frame, and uses that as the destination address and E6-E9-00-17-BB-4B as the source address
 
 c. R lukee ARP-taulukosta osoitteen 222.222.222.222 MAC-osoitteen (49-BD-D2-C7-56-2A), rakentaa Ethernet-kehyksen sillä vastaanottajaosoitteella ja lähettäjäosoitteella 1A-23-F9-CD-06-9B 
@@ -145,4 +145,61 @@ d. R lukee ARP-taulukosta osoitteen 222.222.222.222 MAC-osoitteen (49-BD-D2-C7-5
 e. R lukee ARP-taulukosta osoitteen 222.222.222.222 MAC-osoitteen (49-BD-D2-C7-56-2A), rakentaa Ethernet-kehyksen sillä vastaanottajaosoitteella ja lähettäjäosoitteella 74-29-9C-E8-FF-55 
 - R does ARP lookup for 222.222.222.222, finds out that the MAC address is 49-BD-D2-C7-56-2A, constructs Ethernet frame, and uses that as the destination address and 74-29-9C-E8-FF-55 as the source address
 ```
+
+Q8. Virheellisten reittien mainostaminen
+
+Lue oheinen artikkeli: https://arstechnica.com/information-technology/2010/11/how-china-swallowed-15-of-net-traffic-for-18-minutes/
+
+Mikä seuraavista väittämistä pitää paikkansa?
+
+Which of the following statements is true?
+
+```
+Valitse yksi:
+
+a.Virheellisesti mainostetut reitit eliminoituvat nopeasti ja automaattisesti 
+- Incorrectly advertised routes are eliminated quickly and automatically
+
+b.Internetin reititysjärjestelmä perustuu luottamukseen siitä, että mainostetut reitit ovat oikeellisia 
+- Internet routing is based on the trust that the advertised routes are correct
+
+c.Reititysjärjestelmän rakenne ehkäisee reitityskonfigurointivirheiden leviämisen laajemmalle internettiin 
+- The design of the routing system mitigates for propagation of route configuration mistakes to the rest of the internet
+
+d.Reititysprotokollat sisältävät mekanismin, jolla mainostetun reitin oikeellisuus voidaan todeta 
+- Routing protocols are capable of ensuring authenticity of advertised routes
+
+e.Internet-reitityksen BGP-protokolla käyttää vahvaa salausta ja autentikointia 
+- BGP protocol uses strong encryption and authentication
+
+f.Ison valtion tiedusteluelimet eivät voisi hetkellisesti ohjata lähes kaikkea internet-liikennettä omille palvelimilleen tarpeen niin vaatiessa 
+- State-sponsored actors cannot momentarily route almost all internet traffic through their servers
+
+g.Pahantahtoinen reititintoimija ei voisi sotkea maailmanlaajuista internet-liikennettä edes hetkellisesti 
+- Malicious actor cannot cause world-wide internet disruption even momentarily by advertising incorrect routes
+```
+
+Q9. Djikstra
+
+![image](https://user-images.githubusercontent.com/25344978/228617977-5ef68023-0e75-4faa-b55f-deeffb794cb0.png)
+
+Ohessa luennoilta Dijkstran algoritmin sovellus solmulle u. Jos algoritmia sovelletaan solmuun w, mikä on N' kahden askeleen jälkeen?
+
+If Dijikstra's algorithm is applied on node w, what is the value of N' after two steps?
+
+a.wzx b.wvy c.wyu d.wzv e.wyx f.wxz g.wvx   
+h.wvu i.wuy j.wzy k.wyv l.wuz m.wux n.wxy   
+o.wxu p.wvz q.wzu r.wyz s.wuv  
+
+
+
+Q10. Etäisyysvektorireititys (distance-vector routing)
+
+![image](https://user-images.githubusercontent.com/25344978/228618781-5bf0128c-ffba-48aa-a25f-d481c0d96260.png)
+
+Oheisen kuvauksen mukaisessa verkossa tapahtuu punaisella merkitty muutos linkkien painoarvoihin. Montako aika-askelta kestää, ennen kuin etäisyysvektorireititystä käytettäessä etäisyystaulukot ovat stabiloituneet?
+
+The weight of a link is changed as seen from the diagram. When using distance-vector routing, how many time steps it takes until distance-vector tables have stabilized?
+
+Vastaus: 
 
