@@ -94,7 +94,8 @@ Q7. Paketin kulku lähiverkosta toiseen
 
 Luennoilla esiteltiin paketin liikkuminen lähiverkosta toiseen seuraavalla kuvalla:
 
-![image](https://user-images.githubusercontent.com/25344978/228616312-6250962c-4afe-4c5d-8837-3107ba06b1c9.png)
+<img src="https://user-images.githubusercontent.com/25344978/228616312-6250962c-4afe-4c5d-8837-3107ba06b1c9.png" width=350>
+
 
 ```
 Jos A lähettää paketin B:lle tapahtuu seuraavat askeleet:
@@ -181,21 +182,24 @@ g.Pahantahtoinen reititintoimija ei voisi sotkea maailmanlaajuista internet-liik
 
 Q9. Djikstra
 
-![image](https://user-images.githubusercontent.com/25344978/228617977-5ef68023-0e75-4faa-b55f-deeffb794cb0.png)
+<img src="https://user-images.githubusercontent.com/25344978/228617977-5ef68023-0e75-4faa-b55f-deeffb794cb0.png" width=350>
 
 Ohessa luennoilta Dijkstran algoritmin sovellus solmulle u. Jos algoritmia sovelletaan solmuun w, mikä on N' kahden askeleen jälkeen?
 
 If Dijikstra's algorithm is applied on node w, what is the value of N' after two steps?
 
+```
+Valitse yksi:
+
 a.wzx b.wvy c.wyu d.wzv e.wyx f.wxz g.wvx   
 h.wvu i.wuy j.wzy k.wyv l.wuz m.wux n.wxy   
 o.wxu p.wvz q.wzu r.wyz s.wuv  
-
+```
 
 
 Q10. Etäisyysvektorireititys (distance-vector routing)
 
-![image](https://user-images.githubusercontent.com/25344978/228618781-5bf0128c-ffba-48aa-a25f-d481c0d96260.png)
+<img src="https://user-images.githubusercontent.com/25344978/228618781-5bf0128c-ffba-48aa-a25f-d481c0d96260.png" width=200>
 
 Oheisen kuvauksen mukaisessa verkossa tapahtuu punaisella merkitty muutos linkkien painoarvoihin. Montako aika-askelta kestää, ennen kuin etäisyysvektorireititystä käytettäessä etäisyystaulukot ovat stabiloituneet?
 
