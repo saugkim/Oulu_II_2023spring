@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=jJU2AVX6gpU
+
 Q1. IP-osoitteet
 
 Verkkokerroksen IP-protokollan osoitteen (IP-osoite) perusteella siirretään paketteja verkossa. Mikä tai mitkä seuraavista väittämistä ovat totta?   
