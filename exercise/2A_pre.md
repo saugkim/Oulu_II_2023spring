@@ -30,7 +30,7 @@ Oletetaan, että valittavalla reitillä lähteestä kohteeseen on kolme reititin
 
 There are three switches on the route from source to destination. If packets are not fragmented, how many routing tables are required for packet delivery from source to destination?
 
-Vastaus:
+Vastaus: 4
 
 
 
@@ -49,7 +49,7 @@ Päätelaitteen IP-osoite on 172.16.45.13 ja aliverkon peite on 255.255.224.0. M
 
 IP address of a host is 172.16.45.13 and the subnet mask is 255.255.224.0. What is the netid?
 
-Vastaus: 172.16.32.0/19
+Vastaus: 172.16.32.0
 
 
 
@@ -129,21 +129,21 @@ When A transmits a packet to B, the following happens:
 Which of the following is performed at step 6.?
 
 ```
-Valitse yksi:
+Valitse yksi: c
 
 a. R lukee ARP-taulukosta osoitteen 222.222.222.220 MAC-osoitteen (1A-23-F9-CD-06-9B), rakentaa Ethernet-kehyksen sillä vastaanottajaosoitteella ja lähettäjäosoitteella 49-BD-D2-C7-56-2A 
 - R does ARP lookup for 222.222.222.222, finds out that the MAC address is 1A-23-F9-CD-06-9B, constructs Ethernet frame, and uses that as the destination address and 49-BD-D2-C7-56-2A as the source address
 
-* b. R lukee ARP-taulukosta osoitteen 222.222.222.220 MAC-osoitteen (1A-23-F9-CD-06-9B), rakentaa Ethernet-kehyksen sillä vastaanottajaosoitteella ja lähettäjäosoitteella E6-E9-00-17-BB-4B 
+wrong * b. R lukee ARP-taulukosta osoitteen 222.222.222.220 MAC-osoitteen (1A-23-F9-CD-06-9B), rakentaa Ethernet-kehyksen sillä vastaanottajaosoitteella ja lähettäjäosoitteella E6-E9-00-17-BB-4B 
 - R does ARP lookup for 222.222.222.222, finds out that the MAC address is 1A-23-F9-CD-06-9B, constructs Ethernet frame, and uses that as the destination address and E6-E9-00-17-BB-4B as the source address
 
-c. R lukee ARP-taulukosta osoitteen 222.222.222.222 MAC-osoitteen (49-BD-D2-C7-56-2A), rakentaa Ethernet-kehyksen sillä vastaanottajaosoitteella ja lähettäjäosoitteella 1A-23-F9-CD-06-9B 
+select this c. R lukee ARP-taulukosta osoitteen 222.222.222.222 MAC-osoitteen (49-BD-D2-C7-56-2A), rakentaa Ethernet-kehyksen sillä vastaanottajaosoitteella ja lähettäjäosoitteella 1A-23-F9-CD-06-9B 
 - R does ARP lookup for 222.222.222.222, finds out that the MAC address is 49-BD-D2-C7-56-2A, constructs Ethernet frame, and uses that as the destination address and 1A-23-F9-CD-06-9B as the source address
 
-d. R lukee ARP-taulukosta osoitteen 222.222.222.222 MAC-osoitteen (49-BD-D2-C7-56-2A), rakentaa Ethernet-kehyksen sillä vastaanottajaosoitteella ja lähettäjäosoitteella E6-E9-00-17-BB-4B 
+wrong d. R lukee ARP-taulukosta osoitteen 222.222.222.222 MAC-osoitteen (49-BD-D2-C7-56-2A), rakentaa Ethernet-kehyksen sillä vastaanottajaosoitteella ja lähettäjäosoitteella E6-E9-00-17-BB-4B 
 - R does ARP lookup for 222.222.222.222, finds out that the MAC address is 49-BD-D2-C7-56-2A, constructs Ethernet frame, and uses that as the destination address and E6-E9-00-17-BB-4B as the source address
 
-e. R lukee ARP-taulukosta osoitteen 222.222.222.222 MAC-osoitteen (49-BD-D2-C7-56-2A), rakentaa Ethernet-kehyksen sillä vastaanottajaosoitteella ja lähettäjäosoitteella 74-29-9C-E8-FF-55 
+wrong e. R lukee ARP-taulukosta osoitteen 222.222.222.222 MAC-osoitteen (49-BD-D2-C7-56-2A), rakentaa Ethernet-kehyksen sillä vastaanottajaosoitteella ja lähettäjäosoitteella 74-29-9C-E8-FF-55 
 - R does ARP lookup for 222.222.222.222, finds out that the MAC address is 49-BD-D2-C7-56-2A, constructs Ethernet frame, and uses that as the destination address and 74-29-9C-E8-FF-55 as the source address
 ```
 
@@ -156,7 +156,7 @@ Mikä seuraavista väittämistä pitää paikkansa?
 Which of the following statements is true?
 
 ```
-Valitse yksi:
+Valitse yksi: b
 
 a.Virheellisesti mainostetut reitit eliminoituvat nopeasti ja automaattisesti 
 - Incorrectly advertised routes are eliminated quickly and automatically
@@ -189,7 +189,7 @@ Ohessa luennoilta Dijkstran algoritmin sovellus solmulle u. Jos algoritmia sovel
 If Dijikstra's algorithm is applied on node w, what is the value of N' after two steps?
 
 ```
-Valitse yksi:
+Valitse yksi: e. wyx
 
 a.wzx b.wvy c.wyu d.wzv e.wyx f.wxz g.wvx   
 h.wvu i.wuy j.wzy k.wyv l.wuz m.wux n.wxy   
@@ -205,5 +205,5 @@ Oheisen kuvauksen mukaisessa verkossa tapahtuu punaisella merkitty muutos linkki
 
 The weight of a link is changed as seen from the diagram. When using distance-vector routing, how many time steps it takes until distance-vector tables have stabilized?
 
-Vastaus: 
+Vastaus: 3
 
