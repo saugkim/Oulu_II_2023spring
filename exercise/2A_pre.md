@@ -49,7 +49,7 @@ Päätelaitteen IP-osoite on 172.16.45.13 ja aliverkon peite on 255.255.224.0. M
 
 IP address of a host is 172.16.45.13 and the subnet mask is 255.255.224.0. What is the netid?
 
-Vastaus: 172.16
+Vastaus: 172.16.32.0/19
 
 
 
