@@ -1,50 +1,33 @@
-Q1. Kuljetuskerroksen perusteita (transport layer fundamentals)
-
+**Q1. Kuljetuskerroksen perusteita (transport layer fundamentals)**
 
 Mitkä seuraavista väittämistä ovat totta?:
 
-------
-
 Find the true statements:
-
 
 Valitse yksi tai useampi:
 
-a.
-Kuljetuskerroksen protokollat yhdistävät fyysisesti kaksi verkkolaitetta toisiinsa - Transport layer protocols interconnect hosts physically
+a.Kuljetuskerroksen protokollat yhdistävät fyysisesti kaksi verkkolaitetta toisiinsa - Transport layer protocols interconnect hosts physically
 
-b.
-Kuljetuskerroksen protokollat yhdistävät päätelaitteiden prosesseja - Transport layer protocols interconnect application processes of hosts
+b.Kuljetuskerroksen protokollat yhdistävät päätelaitteiden prosesseja - Transport layer protocols interconnect application processes of hosts
 
+c.Kuljetuskerroksen protokollat toteutetaan siirtokanavan bittivirrassa - Transport layer protocols are implemented in the bitstream of a communication channel
 
-c.
-Kuljetuskerroksen protokollat toteutetaan siirtokanavan bittivirrassa - Transport layer protocols are implemented in the bitstream of a communication channel
+d.Kuljetuskerroksen protokollat yhdistävät päätelaitteita - Transport layer protocols interconnect hosts
 
+e.Kuljetuskerroksen protokollat toteutetaan päätelaitteen käyttöjärjestelmässä - Transport layer protocols are implemented at operating system level
 
-d.
-Kuljetuskerroksen protokollat yhdistävät päätelaitteita - Transport layer protocols interconnect hosts
+f.Kuljetuskerroksen protokollilla määritellään yhteyden kaistanleveys ja enimmäisviive - Transport layer protocols negotiate the bandwidth and maximum delay of a connection
 
+g.HTTP, SNMP, SMTP ja FTP ovat käytetyimmät kuljetuskerroksen protokollat - HTTP, SNMP, SMTP and FTP are the most common transport layer protocols
 
-e.
-Kuljetuskerroksen protokollat toteutetaan päätelaitteen käyttöjärjestelmässä - Transport layer protocols are implemented at operating system level
+h.Kuljetuskerroksen protokollien tehtävänä on estää törmäykset lähetyskanavassa - Transport layer protocols prevent collisions in the transmission channel
 
+i.Kuljetuskerroksen protokollat takaavat viestien perillemenon ja virheenkorjauksen - Transport layer protocols guarantee transportation of messages to destination and error correction
 
-f.
-Kuljetuskerroksen protokollilla määritellään yhteyden kaistanleveys ja enimmäisviive - Transport layer protocols negotiate the bandwidth and maximum delay of a connection
+<br> 
+<br>
 
-
-g.
-HTTP, SNMP, SMTP ja FTP ovat käytetyimmät kuljetuskerroksen protokollat - HTTP, SNMP, SMTP and FTP are the most common transport layer protocols
-
-
-h.
-Kuljetuskerroksen protokollien tehtävänä on estää törmäykset lähetyskanavassa - Transport layer protocols prevent collisions in the transmission channel
-
-i.
-Kuljetuskerroksen protokollat takaavat viestien perillemenon ja virheenkorjauksen - Transport layer protocols guarantee transportation of messages to destination and error correction
-
-
-Q2. UDP
+**Q2. UDP**
 
 Valitse mikä tai mitkä seuraavista väittämistä EIVÄT ole totta mitä tulee UDP-protokollaan:
 
@@ -67,8 +50,10 @@ f.UDP ei muodosta yhteyksiä, eli lähettäjä ja vastaanottaja eivät tee kätt
 g.UDP-otsikko on 8 bittiä pitkä - The size of a UDP header is 8 bits
 
 
+<br>
+<br>
 
-Q3. TCP
+**Q3. TCP**
 
 Mikä tai mitkä seuraavista EIVÄT pidä paikkaansa TCP-protokollaa ajatellen?
 
@@ -99,8 +84,10 @@ j.TCP-protokollan alussa suoritetaan kättely, jolla yhteys muodostetaan - Hands
 k.Ruuhkanhallinnan ansiosta TCP voi aloittaa lähettämisen täydellä nopeudella kättelyn jälkeen - Because of congestion control, TCP can begin transmitting at maximum transfer rate after handshaking
 
 
+<br>
+<br>
 
-Q4. TCP Slow Start
+**Q4. TCP Slow Start**
 
 TCP-yhteyden edestakainen etenemisviive (RTT) on 10ms, ja yhteydessä ei ole ruuhkaa. Vastaanottoikkuna (receive window) on 24 kilotavua, ja segmentin maksimikoko (MSS) on 2 kilotavua. Kun TCP-yhteys on jo muodostettu ja lähettäjän ruuhkaikkuna (congestion window) on 1MSS,  kauanko kestäisi TCP:n hitaalla aloituksella (slow start), ennen kuin ensimmäinen täysi ikkuna voidaan lähettää, jos protokolla ei siirtyisi lainkaan ruuhkan välttämistilaan (congestion avoidance)? 
 
@@ -113,8 +100,10 @@ Give your answer as milliseconds. You can also study, how the congestion avoidan
 
 Vastaus:
 
+<br>
+<br>
 
-Q5. TCP ruuhkanhallinta (congestion control)
+**Q5. TCP ruuhkanhallinta (congestion control)**
 
 Oletataan, että TCP:n ruuhkaikkunan koko on asetettu 18kB:iin, ja paketin aikalaskuri tulee täyteen (timeout). Kuinka suuri ruuhkaikkuna on, jos seuraavat neljä lähetettyä segmenttiä menevät onnistuneesti perille (eli niistä on saatu ACK-viesti)? Oleta, että MSS on 1kB, ja että kuittaukset tulevat samassa järjestyksessä kuin paketit on lähetetty.
 
@@ -127,8 +116,10 @@ Give your answer in kB
 
 Vastaus:
 
-
-Q6. Maksiminopeus TCP-skenaariossa
+<br>
+<Br>
+  
+**Q6. Maksiminopeus TCP-skenaariossa**
 
 Mikä on suurin mahdollinen nopeus (megabitteinä sekunnissa), jolla lähettäjä voi lähettää 1300 tavun TCP-kuormia (+ otsikot) ilman, että TCP-sekvenssinumerot pyörähtävät ympäri, kun segmentin pisin elinikä on 120s? Ota huomioon TCP, IP ja Ethernet-otsikoiden viemä tila, ja oleta, että Ethernet-kehyksiä voidaan lähettää jatkuvasti.
 
@@ -141,10 +132,12 @@ Take into account space taken by TCP, IP and Ethernet headers, and assume that E
 
 Round up your answer, and express it as Mbps without decimals.
 
-
 Vastaus:
 
-Q7. TCP:n vastaanottonopeusskenaario
+<br>
+<br>
+
+**Q7. TCP:n vastaanottonopeusskenaario**
 
 Päätelaite saa dataa palvelimelta TCP-segmentteinä, joissa on kussakin hyötykuormaa 1460 tavua. Jos TCP kuittaa joka toisen segmentin, mikä on minimipuhurointikaista (minimum uplink bandwidth), joka tarvitaan, jotta imurointisuuntaan saadaan lähetettyä hyötykuormaa 1Mbps? Jätetään mahdolliset verkkokerroksen alapuoliset lisäbitit huomiotta, ja ettei TCP:llä ja IP:llä käytetä mitään ylimääräisiä otsikoita.
 
@@ -159,8 +152,11 @@ Ignore overhead caused by layers below L3 (network layer). Options are not used 
 
 Vastaus: 
 
-
-Q8. Siirtoaikalaskuja
+<br>
+<br>
+  
+  
+**Q8. Siirtoaikalaskuja**
 
 Asiakaspäätelaite pyytää ja sille toimitetaan palvelimelta TCP:llä objekti, jonka koko on 100kB. Objekti välitetään linkiltä, jonka lähetysnopeus on 10Mbps kumpaankin suuntaan ja jonka MSS on 536 tavua ja RTT on 100ms. Olettaen, ettei lähetysikkuna aiheuta rajoituksia palvelimen lähettämiseen, mikä on lyhin mahdollinen aika, joka kestää pyynnön lähettämisestä siihen, että objekti on perillä? TCP ja IP eivät käytä mitään optioita, ja voit olettaa, että kättelyyn liittyvät viestit sisältävät vain pakolliset otsikot.
 
@@ -174,3 +170,6 @@ A client sends an request to the server using TCP and receives a data object, wh
 Ignore header overhead and other latencies caused by layers below L3 (network layer). There is no congestion, packets are not dropped and TCP slow start is not in use, i.e. TCP can send at full speed right after connection has been established. Express your answer in milliseconds without decimals rounding to the nearest.
 
 Vastaus:
+
+
+  
