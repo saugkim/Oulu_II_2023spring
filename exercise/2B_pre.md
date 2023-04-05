@@ -134,7 +134,27 @@ Round up your answer, and express it as Mbps without decimals.
 
 Vastaus:
 
-<br>
+```
+https://gateoverflow.in/76113/computer-networks-wrap-around-time
+Best answer
+As Sequence no field in TCP is 32 bit so Max TCP packet could have 232 Byte data(As TCP Byte Oriented)
+
+Now Segment size is 1500B
+
+So no of segment=(232/1500).
+
+Now in each segment we will have TCP Header(20B),IP Header(20B) and Frame Header(18 B) added as overhead.
+
+So extra Overhead=(232/1500)*58 B
+
+So total Size of Packet=232+(232/1500)*58B
+
+As no wraparound of Sequence Number So this would be transfered within life time of packet i.e 120 sec
+
+So Data Rate=[{232+(232/1500)*58}8]/120 =297Mbps
+```
+
+  <br>
 <br>
 
 **Q7. TCP:n vastaanottonopeusskenaario**
