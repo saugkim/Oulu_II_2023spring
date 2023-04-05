@@ -132,7 +132,7 @@ Take into account space taken by TCP, IP and Ethernet headers, and assume that E
 
 Round up your answer, and express it as Mbps without decimals.
 
-Vastaus:
+Vastaus: 299
 
 ```
 https://gateoverflow.in/76113/computer-networks-wrap-around-time
