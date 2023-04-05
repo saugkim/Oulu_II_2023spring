@@ -8,13 +8,13 @@ Valitse yksi tai useampi:
 
 a.Kuljetuskerroksen protokollat yhdistävät fyysisesti kaksi verkkolaitetta toisiinsa - Transport layer protocols interconnect hosts physically
 
-b.Kuljetuskerroksen protokollat yhdistävät päätelaitteiden prosesseja - Transport layer protocols interconnect application processes of hosts
+**b.Kuljetuskerroksen protokollat yhdistävät päätelaitteiden prosesseja - Transport layer protocols interconnect application processes of hosts**
 
 c.Kuljetuskerroksen protokollat toteutetaan siirtokanavan bittivirrassa - Transport layer protocols are implemented in the bitstream of a communication channel
 
 d.Kuljetuskerroksen protokollat yhdistävät päätelaitteita - Transport layer protocols interconnect hosts
 
-e.Kuljetuskerroksen protokollat toteutetaan päätelaitteen käyttöjärjestelmässä - Transport layer protocols are implemented at operating system level
+**e.Kuljetuskerroksen protokollat toteutetaan päätelaitteen käyttöjärjestelmässä - Transport layer protocols are implemented at operating system level**
 
 f.Kuljetuskerroksen protokollilla määritellään yhteyden kaistanleveys ja enimmäisviive - Transport layer protocols negotiate the bandwidth and maximum delay of a connection
 
@@ -47,7 +47,7 @@ e.UDP:n tärkeimpiä käyttökohteita ovat reaaliaikaiset multimediasovellukset 
 
 f.UDP ei muodosta yhteyksiä, eli lähettäjä ja vastaanottaja eivät tee kättelyä ennen datan lähettämistä - UDP is a connectionless protocol; therefore, it does not require handshaking before transmitting the data
 
-g.UDP-otsikko on 8 bittiä pitkä - The size of a UDP header is 8 bits
+**g.UDP-otsikko on 8 bittiä pitkä - The size of a UDP header is 8 bits**
 
 
 <br>
@@ -63,7 +63,7 @@ Valitse yksi tai useampi:
 
 a.TCP:ssä on toteutettu vuonhallinta, eli lähettäjä ei voi kuormittaa vastaanottajaa liikaa - TCP implements flow control; therefore, the sender cannot overwhelm the receiver
 
-b.TCP-protokolla ei takaa pakettien saapumisjärjestystä - TCP does not guarantee that packets are delivered in the same order they were sent
+**b.TCP-protokolla ei takaa pakettien saapumisjärjestystä - TCP does not guarantee that packets are delivered in the same order they were sent**
 
 c.TCP-protokolla tukee vain yksi-yhteen-kommunikaatiota (yksi lähettäjä, yksi vastaanottaja), toisin kuin UDP, jolla on enemmän vaihtoehtoja - TCP supports only one-to-one communication, unlike UDP, which is more versatile
 
@@ -81,7 +81,7 @@ i.TCP-yhteys on full-duplex, eli data voi liikkua molempiin suuntiin - TCP conne
 
 j.TCP-protokollan alussa suoritetaan kättely, jolla yhteys muodostetaan - Handshaking is performed when establishing TCP connection
 
-k.Ruuhkanhallinnan ansiosta TCP voi aloittaa lähettämisen täydellä nopeudella kättelyn jälkeen - Because of congestion control, TCP can begin transmitting at maximum transfer rate after handshaking
+**k.Ruuhkanhallinnan ansiosta TCP voi aloittaa lähettämisen täydellä nopeudella kättelyn jälkeen - Because of congestion control, TCP can begin transmitting at maximum transfer rate after handshaking**
 
 
 <br>
@@ -98,7 +98,7 @@ Round-trip delay time of the TCP connection is 10 ms, and the connection is not 
 
 Give your answer as milliseconds. You can also study, how the congestion avoidance phase would change the answer. Both answers are valid.
 
-Vastaus:
+Vastaus: 40 or 90
 
 <br>
 <br>
@@ -114,7 +114,7 @@ TCP congestion window size is set to 18 kB. Retransmission timer times out becau
 
 Give your answer in kB
 
-Vastaus:
+Vastaus: 5 kB
 
 <br>
 <Br>
