@@ -134,6 +134,8 @@ Round up your answer, and express it as Mbps without decimals.
 
 Vastaus: 299
 
+(2**32)*8/120 + (2**32)*8*54/1300/120 = 298 Mbps
+  
 ```
 https://gateoverflow.in/76113/computer-networks-wrap-around-time
 Best answer
