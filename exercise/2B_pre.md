@@ -154,6 +154,8 @@ As no wraparound of Sequence Number So this would be transfered within life time
 So Data Rate=[{232+(232/1500)*58}8]/120 =297Mbps
 ```
 <img src="https://user-images.githubusercontent.com/25344978/230195772-2367493b-0c04-4ec8-850a-09617a735d78.png" width =300>
+  
+https://gateoverflow.in/76113/computer-networks-wrap-around-time
 
 <br>
 <br>
