@@ -11,7 +11,9 @@ Oheisessa kuvassa näkyy pakettien syntyminen lähettäjällä sekä niiden saap
 
 In the diagram above, one can seen when packets are generated at the sender and when they arrive at the repeater. How many time units does the playout delay have to be in order for all eight packets to arrive in time for playout? 
 
-Vastaus:
+Vastaus: 9   
+can start play at t=10, delay = 10-1 = 9
+
 
 **Kysymys 2**
 
@@ -32,6 +34,8 @@ In the situation seen in the above diagram, token bucket algorithm is used to li
 The bucket is full at start. Packets arrive at the queue from the left as seen in the diagram (for example, #6 arrives just before time slot 3, and so is processed at time slot 3). Because the bucket has two tokens, packets one and two are sent at time slot 0. When are other packets sent?
 
 Express your answer as: n3,n4,n5,n6,n7,n8,n9,n10, where n is the time slot when the corresponding packet is sent from the queue. For example, if packets 3 - 7 are sent at time slot 3 and packets 8 - 10 at time slot 5, your answer would be: 3,3,3,3,3,5,5,5
+
+vastaus: 1,2,3,4,6,6,7,8
 
 
 **Kysymys 3**  
@@ -56,7 +60,8 @@ The system described in the diagram can send one packet per time slot. A packet 
 
 Compute the average queuing delay, when priority queue method is used. Packets with even index have higher priority than packets with odd index. The second image presents the sending order of the packets. Round to three decimal places (e.g., 15,100).
 
-Vastaus:
+Vastaus: 1,917 
+
 
 **Kysymys 4**
 
@@ -72,7 +77,8 @@ A router is using a token bucket algorithm for congestion control. It has a capa
 Round your answer to milliseconds with no decimals.
 
 
-Vastaus:
+Vastaus: 11  
+
 
 
 **Kysymys 5**
@@ -89,6 +95,8 @@ Kirjoita vastauksesi millisekunteina ilman desimaaleja.
 A host needs to send 1MB of burst data, but the router is using the token bucket algorithm described in question #4. Assume that the bucket is already full, so M*T of the data is transmitted during the burst. How long does it take to transmit the rest (1MB-M*T) of the data?
 
 Write your answer in ms without decimals.
+
+vastaus: 363  
 
 
 **Kysymys 6**
@@ -108,7 +116,8 @@ RTP is used to transmit stereo audio packets. A system samples both channels at 
 
 Give your answer as a decimal number, round to one decimal place.
 
-Vastaus:
+Vastaus:  44100/256 = 172,3
+
 
 **Kysymys 7**
 
@@ -131,64 +140,44 @@ Choose the correct statements - how the chosen FEC method affect the network tra
 
 Valitse yksi tai useampi:
 
-a.
-Järjestelmä pystyy korjaamaan kaikki bittivirheet aina kolmeen virheeseen saakka - The system can correct all errors up to three bit errors
+a.Järjestelmä pystyy korjaamaan kaikki bittivirheet aina kolmeen virheeseen saakka - The system can correct all errors up to three bit errors
 
+b.Kadonneet paketit pystytään korvaamaan - Lost packets can be replaced
 
-b.
-Kadonneet paketit pystytään korvaamaan - Lost packets can be replaced
+c.Dataliikenteen vaatima kaista 2,33-kertaistuu - Requires 2,33x bandwidth for data
 
-c.
-Dataliikenteen vaatima kaista 2,33-kertaistuu - Requires 2,33x bandwidth for data
+d.Järjestelmä havaitsee kaikki bittivirheet 4 bittiin saakka - The system can detect up to 4 bit errors
 
-d.
-Järjestelmä havaitsee kaikki bittivirheet 4 bittiin saakka - The system can detect up to 4 bit errors
+e.Dataliikenteen vaatima kaista kaksinkertaistuu - Requires 2x bandwidth for data
 
+f.Toistoviive kasvaa merkittävästi - Introduces noticeable playout delay into the multimedia system
 
-e.
-Dataliikenteen vaatima kaista kaksinkertaistuu - Requires 2x bandwidth for data
+g.Toistoviive lyhenee - Reduces playout delay
 
+h.Kadonneet paketit eivät heikennä toiston laatua - Lost packets do not degrade playout quality
 
-f.
-Toistoviive kasvaa merkittävästi - Introduces noticeable playout delay into the multimedia system
+i.Yksittäiset bittivirheet aiheuttavat toistolaadun laskun - Single-bit errors degrade playout quality
 
+j.Dataliikenteen vaatima kaista pysyy samana - FEC does not introduce network traffic overhead
 
-g.
-Toistoviive lyhenee - Reduces playout delay
+k.Järjestelmä pystyy korjaamaan kaikki 1 ja 2 bitin virheet - The system can correct all one and two bit errors
 
-h.
-Kadonneet paketit eivät heikennä toiston laatua - Lost packets do not degrade playout quality
+l.Toistoviive kasvaa - Increases playout delay
 
-i.
-Yksittäiset bittivirheet aiheuttavat toistolaadun laskun - Single-bit errors degrade playout quality
+m.Dataliikenteen vaatima kaista 1,75-kertaistuu - Requires 1,75x bandwidth for data
 
-j.
-Dataliikenteen vaatima kaista pysyy samana - FEC does not introduce network traffic overhead
+n.Toistoviive pysyy kutakuinkin samana - Does not affect playout delay noticeably
 
+o.Dataliikenteen vaatima kaista 7-kertaistuu - Requires 7x bandwidth for data
 
-
-k.
-Järjestelmä pystyy korjaamaan kaikki 1 ja 2 bitin virheet - The system can correct all one and two bit errors
-
-l.
-Toistoviive kasvaa - Increases playout delay
-
-m.
-Dataliikenteen vaatima kaista 1,75-kertaistuu - Requires 1,75x bandwidth for data
-
-
-
-n.
-Toistoviive pysyy kutakuinkin samana - Does not affect playout delay noticeably
-
-o.
-Dataliikenteen vaatima kaista 7-kertaistuu - Requires 7x bandwidth for data
+True: 
+Does not affect playout delay noticeable  
+Requires 1,75x bandwidth for data  
 
 
 **Kysymys 8**
 
 FEC-menetelmä 2 - pariteettipaketti
-
 
 Multimediajärjestelmässä virheitä voidaan peittää tai korjata erilaisilla FEC-menetelmillä. 
 
@@ -209,33 +198,27 @@ Choose the correct statements - how does the FEC method affect the network traff
 
 Valitse yksi tai useampi:
 
-a.
-Laatu pysyy häiriöiden kasvaessa pitkään korkeana, mutta tippuu jyrkästi kun paketteja alkaa hukkumaan enemmän - Quality does not degrade until the communication channel experiences major packet loss, which causes significant degradation in quality
+a.Laatu pysyy häiriöiden kasvaessa pitkään korkeana, mutta tippuu jyrkästi kun paketteja alkaa hukkumaan enemmän - Quality does not degrade until the communication channel experiences major packet loss, which causes significant degradation in quality
 
-b.
-Dataliikenteen vaatima kaista pysyy samana - Does not change the required bandwidth for data
+b.Dataliikenteen vaatima kaista pysyy samana - Does not change the required bandwidth for data
+
+c.Toistoviive pysyy kutakuinkin samana - Playout delay is unaffected
+
+d.Dataliikenteen vaatima kaista kolminkertaistuu - Requires 3x bandwidth for data
+
+e.Toistoviive pienenee merkittävästi - Playout delay decreases significantly
+
+f.Dataliikenteen vaatima kaista kaksinkertaistuu - Requires 2x bandwidth for data
+
+g.Toistoviiveen on varmistettava, että pariteettipaketti ehtii myös saapua perille - In order to playout media chunk, all three packets have to arrive; therefore, playout delay increases
+
+h.Toistoviive lyhenee - Playout delay decreases
+
+True:  
+In order to playout media chunk, all three packets have to arrive; therefore, playout delay increases
+
+Quality does not degrade until the communication channel experiences major packet loss, which causes significant degradation in quality
 
 
-
-c.
-Toistoviive pysyy kutakuinkin samana - Playout delay is unaffected
-
-
-d.
-Dataliikenteen vaatima kaista kolminkertaistuu - Requires 3x bandwidth for data
-
-
-e.
-Toistoviive pienenee merkittävästi - Playout delay decreases significantly
-
-
-
-f.
-Dataliikenteen vaatima kaista kaksinkertaistuu - Requires 2x bandwidth for data
-
-g.
-Toistoviiveen on varmistettava, että pariteettipaketti ehtii myös saapua perille - In order to playout media chunk, all three packets have to arrive; therefore, playout delay increases
-
-h.
-Toistoviive lyhenee - Playout delay decreases
-
+  
+  
