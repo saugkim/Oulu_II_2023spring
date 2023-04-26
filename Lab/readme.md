@@ -21,13 +21,8 @@ if port 20000 is available on 195.148.20.105,
 **Exercise 1**
 ```
 windows> ipython3 lab3.py 195.148.20.105 20000 "hello there"
---> with 3 arguments; send_and_receive_tcp(ip, port, message)
-
-windows> ipython3 lab3.py 195.148.20.105 20000 
---> with 2 arguments; send_and_receive_udp(ip, port)
 
 linux> python3 lab3.py 195.148.20.105 20000 "hello there"
-linux> python3 lab3.py 195.148.20.105 20000
 
 ```
 
