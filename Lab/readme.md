@@ -5,8 +5,6 @@ I have done alone and completed both exercises.
 
 **Potential bugs or other issues that your program has**  
 
-When I tested udp-proxy, I failed running the method of *send_and_receive_udp(ip, port)* created at exercise 1, I guess the problem might be tcp-call inside looping.   
-
 Though UDP proxy test worked well with my pure udp test code (no tcp calls within loop-user input).     
 I tested all my code with tcp-udp server setted up at my ubuntu-machine, which I am not sure about correctness of my server-side code.  
 
