@@ -1,4 +1,4 @@
-Name: Kim Yukyeong   
+
 ID:   2301815    
 I have done alone and completed both exercises.  
  
