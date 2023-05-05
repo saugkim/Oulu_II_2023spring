@@ -11,3 +11,10 @@ course schedule
 Network layer (IP)   
 https://jodies.de/ipcalc
 
+
+Computer Networking: a Top-Down Approach (8th ed.)  
+J.F. Kurose, K.W. Ross, Pearson, 2020  
+http://gaia.cs.umass.edu/kurose_ross  
+
+https://gaia.cs.umass.edu/kurose_ross/videos/2/
+
