@@ -18,3 +18,5 @@ http://gaia.cs.umass.edu/kurose_ross
 
 https://gaia.cs.umass.edu/kurose_ross/videos/2/
 
+http://www.sr2jr.com/textbook-solutions/computer-science/10702013/computer-networking-a-top-down-approach-multimedia-networking
+
